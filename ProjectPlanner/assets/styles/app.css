@@ -124,3 +124,6 @@ button:active {
   color: white;
   margin: 0;
 }
+.droppable {
+  background-color: rgba(255, 182, 193, 0.897);
+}
