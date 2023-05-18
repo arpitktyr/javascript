@@ -57,3 +57,8 @@ let fordCar = Object.create(car, {
 });
 
 console.log(fordCar.modelName());
+
+const newPrototype = { a: "1212" };
+const newObject = Object.create(newPrototype);
+
+console.log(Object.getPrototypeOf(newObject) === newPrototype); // true
